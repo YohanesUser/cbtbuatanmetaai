@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://github.com/YohanesUser/galeri/blob/main/Gambar%20WhatsApp%202024-12-04%20pukul%2018.39.15_b234693a.jpg?raw=true');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.soal {
+  margin-bottom: 20px;
+}
+
+#submit-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#next-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#hasil {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Responsif */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  #submit-btn, #next-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+    margin: 10px auto;
+    padding: 5px;
+  }
+  #submit-btn, #next-btn {
+    padding: 3px 5px;
+    font-size: 12px;
+  }
+}

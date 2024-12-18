@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT Ujian Offline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CBT Ujian Offline</h1>
+        <form id="quiz-form">
+            <div class="soal">
+                <p id="soal-text"></p>
+                <input type="radio" id="jawab1" name="jawab">
+                <label for="jawab1" id="jawab1-text"></label>
+                <input type="radio" id="jawab2" name="jawab">
+                <label for="jawab2" id="jawab2-text"></label>
+                <input type="radio" id="jawab3" name="jawab">
+                <label for="jawab3" id="jawab3-text"></label>
+            </div>
+            <button id="submit-btn">Kirim Jawaban</button>
+            <button id="next-btn" style="display:none;">Next</button>
+            <div id="hasil"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
